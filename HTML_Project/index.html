@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML.Project</title>
+        <link rel="icon" href="C:\Users\nagar\OneDrive\Desktop\visual studio code\My_Projects\HTML_Project\html-5_5968267.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta name="description" content="Personal Portfolio Website using HTML">
+    </head>
+    <body>
+        <!-- Home -->
+        <header>
+            <h1>🌐 Welcome to My HTML World</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <hr>
+
+        <section>
+            <h3>Introduction</h3>
+                <p>This project demonstrates<b> all major HTML concepts.</b> You Will <i> see text formatting,</i>
+                    <u>table,</u><mark>list </mark><abbr title="Hyper text">HTML</abbr> forms, and more.
+                </p>     
+        </section>
+<!-- List -->
+        <section>
+            <h2>My Favorite Topics</h2>
+            <ul>
+                <li>HTML Basics</li>
+                <li>Forms & Tables</li>
+                <li>Multimedia</li>
+            </ul>
+            <h3>Steps to Learn HTML</h3>
+            <ol>
+                <li>Learn the tags</li>
+                <li>Practice with projects</li>
+                <li>Build websites</li>
+            </ol>
+        </section>
+<!-- table -->
+        <section>
+            <h2>Learning Schedule</h2>
+            <table border="1">
+                <caption>HTML Study Plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                    </tr>
+                    <tr>
+                        <td>Day 1</td>
+                        <td>Basic Tags</td>
+                    </tr>
+                    <tr>
+                        <td>Day 2</td>
+                        <td>Forms & Inputs</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+<!-- image, audio & video -->
+        <section>
+            <h2>Multimedia Demo</h2>
+            <img src="C:\Users\nagar\OneDrive\Desktop\visual studio code\My_Projects\HTML_Project\html-5_5968267.png" alt="no img!" width="200" height="200">
+            <audio controls>
+                <source src="#" type="audio/*">
+            </audio>
+            <video controls>
+                <source src="#" type="video/*">
+            </video>
+        </section>
+
+<!--Feedback form  -->
+        <section>
+            <form>
+            <h2>Feedback Form</h2>
+            <!--  input name and email -->
+           <label for="name">Name: </label>
+           <input type="text" id="name" class="name" required><br><br>
+           <label for="email">Email: </label>
+           <input type="email" id="email" name="email" required><br><br>
+            <!-- radio button -->
+           <label for="gender">Gender: </label>
+           <input type="radio" value="male" name="gender"> Male
+           <input type="radio" value="female" name="gender"> Female
+           <br>
+           <br>
+           <!-- checkbox -->
+            <label for="skills">Skills: </label>
+            <input type="checkbox" name="skills" value="html"> HTML
+            <input type="checkbox" name="skills" value="CSS"> CSS
+            <input type="checkbox" name="skills" value="Javascript"> Javascript
+            <input type="checkbox" name="skills" value="Java"> Java
+            <br>
+            <br>
+            <!-- select menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>Uk</option>
+                <option>Ireland</option>
+            </select>
+            <br>
+            <br>
+            <!-- text area -->
+            <textarea rows="8" cols="25" name="message" placeholder="Write Feedback..."></textarea>
+            <br>
+            <br>
+            <!-- submit button -->
+            <input type="submit" name="submit">
+            </form>
+        </section>
+        <hr>
+
+<!-- footer -->
+        <footer>
+            <p>&copy 2025 My HTML World | <a href="#top">Back to Top</a></p>
+        </footer>
+    </body>
+</html>
