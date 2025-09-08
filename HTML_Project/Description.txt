@@ -1,5 +1,0 @@
-This Project About 
-  
-Combines index, about, and contact pages
-
-Shows HTML full concept practice (lists, tables, forms, multimedia, semantic tags, etc.)
